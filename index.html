@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Rating Widget</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="rating-card">
+        <div class="icon">⭐</div>
+        <p class="tag">VEDA TECHNOLOGY · TASK 19</p>
+        <h1>Rate Your Experience</h1>
+        <p class="subtitle">How would you rate our service?</p>
+
+        <div class="stars" role="group" aria-label="Choose a rating from 1 to 5">
+            <button class="star" data-value="1" aria-label="1 star">★</button>
+            <button class="star" data-value="2" aria-label="2 stars">★</button>
+            <button class="star" data-value="3" aria-label="3 stars">★</button>
+            <button class="star" data-value="4" aria-label="4 stars">★</button>
+            <button class="star" data-value="5" aria-label="5 stars">★</button>
+        </div>
+
+        <p id="ratingText" aria-live="polite">Select a star to rate</p>
+        <button id="resetBtn" class="reset-btn" type="button">Reset Rating</button>
+
+        <p class="footer">Made with HTML, CSS & JavaScript</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
